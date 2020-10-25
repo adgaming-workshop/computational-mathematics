@@ -66,7 +66,7 @@ int main(){
 		2 * e3 * ((pow(alpha0, 2) * X + 2 * alpha0 * alpha3) * X - 2 * (2 * alpha0 * X + alpha3) + 1) -
 		2 * e0 * (alpha3 * (2 * alpha0 * X + alpha3) - 2 * X * (2 * alpha3 + alpha0 * X) + pow(X, 2)));
 
-	double a5 = 2 * pow(X, 3) * (pow(e3, 2) * (alpha0 * X - 2) - e0 *e3 * (alpha0 * X - 2) - e0 * e3 * (alpha0 * X - 2 + alpha3 - 2 * X) +
+	double a5 = 2 * pow(X, 3) * (pow(e3, 2) * (alpha0 * X - 2) - e0 * e3 * (alpha0 * X - 2 + alpha3 - 2 * X) +
 		pow(e0, 2) * (alpha3 - 2 * X) + (alpha3 + alpha0 * X) - e3 * (2 * alpha0 * X + alpha3 - 2) - e0 * (2 * alpha3 + alpha0 * X - 2 * X));
 
 	double a6 = pow(X, 4) * (pow((e3 - e0), 2) + 1 - 2 * (e3 + e0));
